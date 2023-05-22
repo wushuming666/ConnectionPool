@@ -245,6 +245,9 @@ MySQL数据库编程直接采用oracle公司提供的MySQL C/C++客户端开发�
 3.右键项目 - 链接器 - 输入 - 附加依赖项，填写libmysql.lib库的名字
 4.把libmysql.dll动态链接库（Linux下后缀名是.so库）放在工程目录下
 
+今天按照这个步骤不行了，需要在VC++目录配置下
+![image](https://github.com/wushuming666/ConnectionPool/assets/74699943/8f63ae1d-fa08-4413-b253-449cc96d803a)
+
 MySQL数据库C++代码封装如下：
 ```cpp
 #include <mysql.h>
